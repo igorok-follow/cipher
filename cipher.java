@@ -20,7 +20,7 @@ public class cipher {
 
         Cipher cipher = Cipher.getInstance("AES");
 
-        SecretKeySpec key = new SecretKeySpec("Bar12345Bar12345".getBytes(), "AES");
+        SecretKeySpec key = new SecretKeySpec("0D485016A0746C49A138D44670EA899F".getBytes(), "AES");
 
         cipher.init(Cipher.ENCRYPT_MODE,key);
 
